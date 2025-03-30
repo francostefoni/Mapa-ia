@@ -221,6 +221,8 @@ a:hover {
       overflow-x: auto;
       border-radius: 0;
       box-shadow: none;
+      padding-left: 8px;
+      padding-right: 8px;
     }
 
     .mi-tabla th,
