@@ -252,3 +252,7 @@ body.fade-out {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
