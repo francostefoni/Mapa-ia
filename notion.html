@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Puntuación - Notion AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const links = document.querySelectorAll("a");
+      
+          links.forEach(link => {
+            link.addEventListener("click", function(e) {
+              if (link.getAttribute("href").includes(".html")) {
+                e.preventDefault();
+                document.body.classList.add("fade-out");
+                setTimeout(() => {
+                  window.location.href = link.href;
+                }, 300); // Tiempo igual al del CSS
+              }
+            });
+          });
+        });
+      </script>
+</head>
+
+  
+<body>
+    <h1><span class="titulo-principal">Puntuación: Notion AI</span></h1>
+
+    <table class="mi-tabla">
+        <tr>
+            <th>Criterio</th>
+            <th>2 Pt</th>
+            <th>1 Pt</th>
+            <th>0 Pt</th>
+        </tr>
+        <tr>
+            <td>Facilidad de uso</td>
+            <td></td>
+            <td>✔️</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Eficiencia</td>
+            <td>✔️</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Calidad del resultado</td>
+            <td>✔️</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Costo</td>
+            <td>✔️</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Innovación</td>
+            <td>✔️</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="volver">
+        <a href="index.html">← Volver al inicio</a>
+    </div>
+    
+</body>
+</html>
