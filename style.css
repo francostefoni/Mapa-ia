@@ -258,3 +258,13 @@ body.fade-out {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
+.tabla-wrapper {
+  overflow-x: auto;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .tabla-wrapper {
+    padding: 0 16px;
+  }
+}
